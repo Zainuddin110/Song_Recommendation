@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 
 # Load the CSV file (Update file path if necessary)
-file_path = 'Hindi_Songs_With_Tags_And_Links_.xlsx'
+file_path = 'song/Hindi_Songs_With_Tags_And_Links_.xlsx'
 songs_df = pd.read_excel(file_path)
 
 # Fill NaN values with empty strings to prevent errors in text processing
